@@ -23,7 +23,7 @@ def test_jarvis_context_requires_curiosity_without_engagement_bait():
     assert "Be a thoughtful, proactive operator" in content
     assert "Challenge assumptions respectfully" in content
     assert "Never invent urgency" in content
-    assert "without a mandatory question" in content
+    assert "not as a mandatory question at the end of every response" in content
 
 
 def test_jarvis_context_preserves_channels_and_safety_boundaries():
